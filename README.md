@@ -26,4 +26,4 @@ I will add a text tutorial here soon.
 <br>
 You need to add your dicord bot token to the .env file. PLEASE NOTE this file maybe hidden on your OS.
 <br>
-All the swearwords/cusswords are in the swears.txt file. Please feel free to edit them.
+All the swearwords/cusswords are in the swears.txt file. Please feel free to edit/add them.
