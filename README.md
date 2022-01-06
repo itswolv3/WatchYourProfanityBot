@@ -23,3 +23,5 @@ pip3 install -r requirments.txt
 
 You will also need to setup your own discord bot.<br>
 I will add a text tutorial here soon.
+<br>
+You need to add your dicord bot token to the .env file. PLEASE NOTE this file maybe hidden on your OS.
