@@ -24,6 +24,15 @@ pip3 install -r requirments.txt
 You will also need to setup your own discord bot.<br>
 I will add a text tutorial here soon.
 <br>
+<br>
 You need to add your dicord bot token to the .env file. PLEASE NOTE this file maybe hidden on your OS.
 <br>
 All the swearwords/cusswords are in the swears.txt file. Please feel free to edit/add them.
+<br>
+<br>
+Currently working on trying to get a guide to setting this up on Heroku.<br>
+In the past I had a few issues with repl.it and keeping the script running.<br>
+If you are going to use repl.it you will need to use the "Secrets Enviroment Variables" as .env files are depreciated.
+<br>
+<br>
+I will try and get a guide out for both rep.it and heroku in the near future! GLHF
