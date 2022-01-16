@@ -3,7 +3,7 @@ A Discord Bot to censor swearwords/cuss words.
 ![](https://tenor.com/view/watch-your-mouth-watch-your-profanity-watch-it-gif-5600117)
 
 This started as a fun way to learn the discord API and discord.py.
-Currently on trying to make this a bit more than that, an actual usable bot.
+Currently on trying to make this a bit more than that, an actual usable bot. Please add your desired words to censor to the swears.txt
 <br>
 # Hosting on Heroku
 For the easiest experience I will suggest cloning/forking this repo as a private repo.
