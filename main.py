@@ -20,17 +20,16 @@ class myClient(discord.Client):
         message_safe = True
         print(f"Message from {message.author}: {message.content}")
 
-        if message.author == self.user:
+        if message.author == self.user or message.author == 'RamseyBot#5572':
             return
-
-        user_message = message.content.lower().split()
-
-        for index, word in enumerate(user_message):
-            for swear in swearwords:
-                if user_message[index] == swear:
-                    message_safe = False
-                    user_message[index] = "▂" * len(word)
-                    censored_message = " ".join(user_message)
+        else:
+            user_message = message.content.lower().split()
+            for index, word in enumerate(user_message):
+                for swear in swearwords:
+                    if user_message[index] == swear:
+                        message_safe = False
+                        user_message[index] = "▂" * len(word)
+                        censored_message = " ".join(user_message)
 
         if not message_safe:
             await message.reply(f"@{message.author} said: {censored_message}\n" + gif, mention_author=True)
