@@ -20,7 +20,7 @@ class myClient(discord.Client):
         message_safe = True
         print(f"Message from {message.author}: {message.content}")
 
-        if message.author == self.user or message.author == 'RamseyBot#5572':
+        if message.author == self.user or message.author == 'INSER_BOT_NAME':
             return
         else:
             user_message = message.content.lower().split()
