@@ -7,7 +7,7 @@ load_dotenv()
 TOKEN = os.getenv("d_token")
 
 with open("swears.txt", "r") as wordlist:
-    swearwords = list(wordlist.read().split())
+    swearwords = wordlist.readlines() 
 
 gif = "https://tenor.com/view/watch-your-mouth-watch-your-profanity-watch-it-gif-5600117"
 
